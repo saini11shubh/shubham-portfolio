@@ -1,0 +1,37 @@
+.slider-container {
+    overflow: hidden;
+    width: 300px;
+    /* Adjust as needed */
+    height: 200px;
+    /* Adjust as needed */
+}
+
+.slider {
+    display: flex;
+    flex-direction: row-reverse;
+    /* Reverse direction */
+    transition: transform 0.5s ease;
+    /* Add transition for smooth movement */
+}
+
+.slide {
+    flex: 0 0 auto;
+    /* width: 550px; */
+    /* Adjust as needed */
+    /* height: 200px; */
+    /* Adjust as needed */
+}
+
+.carousel-control-next,
+.carousel-control-prev,
+.carousel-indicators {
+    display: none;
+}
+
+
+
+.backend {
+    /* background: #c6a5a5; */
+    border-top: 2px solid black;
+    height: 250px;
+}

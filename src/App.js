@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <ScrollToTop/>
+        <ScrollToTop />
 
         <Navbar />
 
@@ -27,11 +27,11 @@ function App() {
           <Route path="/project/:id" element={<Project />} />
           <Route path="/contacts" element={<Contacts />} />
         </Routes>
-       
+
         <Footer />
 
       </Router>
-     
+
 
     </div>
   );

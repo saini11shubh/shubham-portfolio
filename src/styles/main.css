@@ -58,14 +58,28 @@ body {
 }
 
 #root {
-	min-height: 100vh;;
+	min-height: 100vh;
+	;
 }
+
 .App {
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
+	/* overflow-y: hidden; */
 }
 
+body {
+	background: #fff;
+}
+
+body.dark {
+	background: #252526;
+}
+
+body.dark * {
+	color: #fff;
+}
 
 /* General */
 
@@ -215,15 +229,15 @@ body {
 	line-height: 1.5;
 }
 
-.content-list__item p + p {
+.content-list__item p+p {
 	margin-top: 0.5em;
 }
 
 
 @media (max-width: 620px) {
-	/* Header  */.dark-mode-btn
 
-	.header {
+	/* Header  */
+	.dark-mode-btn .header {
 		min-height: unset;
 	}
 

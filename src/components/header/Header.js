@@ -1,6 +1,8 @@
 import "./style.css";
 
 const Header = () => {
+
+
   return (
     <header className="header">
       <div className="header__wrapper">
@@ -14,7 +16,7 @@ const Header = () => {
           <p>with passion for learning and creating.</p>
         </div>
 
-        <a download href="./shubham saini.pdf" className="btn">Download Resume</a>
+        <a style={{ background: 'var(--accent)', color: '#fff' }} ownload href="./shubham saini.pdf" className="btn">Download Resume</a>
 
       </div>
     </header>
